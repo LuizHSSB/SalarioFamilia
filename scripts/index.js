@@ -6,7 +6,7 @@ var nome = document.querySelector("#inputName").value
 var filhos = document.querySelector("#inputFilhos").value
 var salario = document.querySelector("#inputSalario").value
 
-if(salario == 0 || filhos == 0){
+if(salario <= 0 || filhos <= 0){
     salarioFamilia = 0
     document.querySelector("#resposta").innerHTML=`
     <h3>Para fazer parte do benefício, o senhor(a) precisa ter um salário superior a 0 reais e ter pelo menos 1 filho</h3>
