@@ -8,16 +8,16 @@
 </head>
 <body>
     <main>
-        <img src="../SalarioFamilia/layout/images/salario-familia.jpg" alt="Banner">
+        <img src="img/salario-familia.jpg" alt="Banner">
         <div id="input">
             <label for="#">
-                <input type="text" placeholder="Empregado">
+                <input id="inputName" type="text" placeholder="Empregado">
             </label>
             <label for="#">
-                <input type="number" placeholder="Quantidade de filhos menores 14 anos ou inválidos">
+                <input id="inputFilhos" type="number" placeholder="Quantidade de filhos menores 14 anos ou inválidos">
             </label>
             <label for="#">
-                <input type="number" placeholder="Salário Contribuição">
+                <input id="inputSalario" type="number" placeholder="Salário Contribuição">
             </label>
         </div>
         <div id="table">
@@ -43,8 +43,10 @@
             </table>
         </div>
         <div id="button">
-            <button type="button">Calcular</button>
-        </div>    
+            <button id="submitSalario" type="button">Calcular</button>
+        </div>
+        <div id="resposta"></div>    
     </main>
+    <script src="scripts/index.js"></script>
 </body>
 </html>

@@ -36,9 +36,8 @@ main table{
 }
 
 main button{
-    width: 35%;
-    height: 10%;
-    padding: 20px;
+    width: 20%;
+    padding: 10px;
     background-color: #02acac;
     color: white;
     font-size: 20px;
@@ -69,5 +68,12 @@ main button:hover{ /*hover = passar o mouse por cima*/
 #input{
     display: flex;
     flex-direction: column;
+}
+
+#resposta{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    text-align: center;
 }
 
