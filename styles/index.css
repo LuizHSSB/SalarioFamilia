@@ -62,7 +62,7 @@ main button:hover{ /*hover = passar o mouse por cima*/
 
 #table th{
     padding: 17px;
-    border: solid 1px black;
+    border: solid 1px rgb(1, 1, 1);
 }
 
 #input{
